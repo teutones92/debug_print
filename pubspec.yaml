@@ -1,6 +1,6 @@
 name: debug_print
 description: "A simple debug print for Dart"
-version: 0.0.1
+version: 0.0.1+1
 homepage: https://teutondev.com
 repository: https://github.com/teutones92/debug_print
 
