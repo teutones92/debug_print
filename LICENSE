@@ -1,0 +1,28 @@
+# License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+# DebugPrint
+
+DebugPrint is a simple tool that provides two static methods for printing messages. The first method is a regular print function, and the second method is a debug print function that only runs if the application is in developer mode. This allows you to use `debugPrint()` in development without affecting the production environment.
+
+## Features
+
+- Regular print method
+- Debug print method that checks the application's mode
+
+## Usage
+
+```python
+from debug_print import DebugPrint
+
+# Regular print
+DebugPrint.print("This is a regular print message.")
+
+# Debug print (only prints in developer mode)
+DebugPrint.debugPrint("This is a debug print message.")
+```
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more information.
